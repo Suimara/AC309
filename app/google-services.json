@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "778446203277",
+    "firebase_url": "https://sabedoriajedi-d943a.firebaseio.com",
+    "project_id": "sabedoriajedi-d943a",
+    "storage_bucket": "sabedoriajedi-d943a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:778446203277:android:1c46954f20552d43",
+        "android_client_info": {
+          "package_name": "br.com.sabedoriajedi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "778446203277-2i0h0ghgh1us61bcvrv4rm02fat2joou.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmiawgWdd7aEw6j71jpOqg7EuXXbWMqZU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical"
+        tools:context=".AdicionarJedi">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="JEDI\n"
+            android:textSize="30sp"
+            tools:ignore="HardcodedText" />
+
+        <!-- Nome do Jedi -->
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_NomeJedi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edtNomeJedi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nome"
+                android:inputType="text" />
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Escolha do Jedi -->
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_LadoJedi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edtLado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Escolha do lado"
+                android:inputType="text" />
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Mestre Jedi -->
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_Mestre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/edtMestre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mestre Jedi"
+                android:inputType="text" />
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nLutou contra Darth Vader?"
+            android:textSize="23sp" />
+        <!-- Lutou contra vader Jedi -->
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbSimLutouContraVader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sim" />
+
+            <RadioButton
+                android:id="@+id/rbNaoLutouContraVader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Não" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnSalvar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Salvar"
+            android:textSize="20sp" />
+    </LinearLayout>
+</ScrollView>
